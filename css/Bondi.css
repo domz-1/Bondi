@@ -1,0 +1,169 @@
+
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    background-color:var(--dark-color);
+    /* position: !important; */
+}
+.navbar  .nav-link {
+    color: white;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav-link:hover {
+color: #00c2d3 !important;
+}
+.fa-magnifying-glass{
+    color: white;
+padding: 5px 15px;
+border-left: solid #00c2d3 ;
+}
+.navbar .navbar-toggler {
+    color: white !important;
+    font-size: 25px;
+    border-color: white !important;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn{
+    background-color:var(--red-color) !important;
+    color: var(--yellow-color) !important;
+    border-color: var(--yellow-color) !important;
+
+}
+.landing{
+    background-color: var(--dark-color);
+    max-height: 100vb;
+    position: relative;
+}
+@media screen and (max-width:786px) {
+    .landing{
+        background-color: var(--dark-color);
+        max-height: 70vb !important;
+        position: relative;
+    }
+
+}
+.landing .container .text-center{
+    padding-top: 200px;
+}
+.features{
+    margin-top: 10rem;
+}
+.icon-holder{
+    height: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-holder .num {
+    font-size: 11rem !important;
+    color: var(--section-color);
+    position: absolute; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .icon-holder .icon {
+color: var(--green-color);
+font-size: 40px;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+}
+.features .icon-holder i{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main-title::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.projects ul .nav-item :hover{
+    color: var(--red-color) !important;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+}
+.box::before {
+    content: attr(data-work);
+    position: absolute;
+    left: 0;
+    background-color: rgb(51 209 204 / 76%);
+    width: calc(100%);
+    height: calc(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    font-size: 1.5rem;
+    transform: translateX(-100%);
+    z-index: -1;
+}
+
+.box.mb-3:hover::before {
+    transform: translateX(0);
+    z-index:2;
+    cursor: pointer;
+}
+.Teamtitle>h1{
+    color: var(--yellow-color);
+}
+.box.mb-2.bg-white>h2{
+background-color: var(--green-color);
+color:white
+}
+.box.mb-2.bg-white>p{
+    margin-top: 10px !important;
+    background-color: azure;
+}
+
+.projects{
+    color: white;
+    background-color: var(--dark-color);
+}
+.card{
+    width: 18rem !important;
+}
+.subscribe{
+    background-color: var(--yellow-color);
+}
+.emailborder{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.emailborder:focus{
+    outline: none;
+}
+.emailborder::placeholder{
+    color: white;
+}
+.btn-sub{
+    background-color: var(--dark-color) !important;
+    color: var(--yellow-color) !important;
+}
+.footer{
+    background-color: var(--dark-color);
+}
