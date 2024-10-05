@@ -2,6 +2,10 @@
 
 Bondi is a modern, responsive website template designed for creative agencies. It showcases a clean and professional layout to highlight services, portfolio, team members, and blog posts.
 
+## Live Demo
+
+Check out the live demo of the Bondi template: [https://domz-leon.netlify.app/](https://domz-leon.netlify.app/)
+
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
