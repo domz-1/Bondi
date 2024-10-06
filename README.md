@@ -4,7 +4,8 @@ Bondi is a modern, responsive website template designed for creative agencies. I
 
 ## Live Demo
 
-Check out the live demo of the Bondi template: [https://domz-leon.netlify.app/](https://domz-leon.netlify.app/)
+Check out the live demos of the Bondi template:
+- [https://domz-bondi.netlify.app/](https://domz-bondi.netlify.app/)
 
 ## Table of Contents
 
@@ -81,7 +82,6 @@ bondi/
 ## Contributing
 
 Contributions to improve Bondi are welcome. Please follow these steps:
-
 1. Fork the repository
 2. Create a new branch (`git checkout -b feature/improvement`)
 3. Make your changes
